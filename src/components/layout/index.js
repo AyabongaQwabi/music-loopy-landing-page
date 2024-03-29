@@ -1,6 +1,7 @@
 
 import Head from 'next/head';
 import NavigationBar from '@/components/navigation';
+import Footer from '@/components/footer'
 const Layout = ({ children }) => {
 
   return (
@@ -44,6 +45,7 @@ const Layout = ({ children }) => {
       </Head>
       <NavigationBar />
       <main>{children}</main>
+      <Footer />
     </div>
   );
 };
