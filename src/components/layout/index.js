@@ -1,13 +1,12 @@
 
 import Head from 'next/head';
-
+import NavigationBar from '@/components/navigation';
 const Layout = ({ children }) => {
 
   return (
     <div>
       <Head>
         <title>Music Loopy</title>
-
         <meta
           name='description'
           content="Music loopy for artists and producers to collaborate and create music."
@@ -43,6 +42,7 @@ const Layout = ({ children }) => {
           sizes='any'
         />
       </Head>
+      <NavigationBar />
       <main>{children}</main>
     </div>
   );
