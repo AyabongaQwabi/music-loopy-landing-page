@@ -7,7 +7,7 @@ const AboutSection = () => {
         <h2 className='text-3xl font-bold text-left mb-8 pl-4'>
           Music Loopy - Your Gateway to Great Music!
         </h2>
-        <p className='text-lg text-left mb-8 pl-4'>
+        <p className='text-lg text-left mb-8 pl-4 font-light'>
           At Music Loopy, we're dedicated to curating a platform where music
           lovers like you can discover talented artists, support their work, and
           enjoy the best of music from around the world. Whether you're a
@@ -17,7 +17,7 @@ const AboutSection = () => {
         <h3 className='text-xl font-semibold mb-4 pl-4'>
           Our Project Overview
         </h3>
-        <p className='text-lg text-left mb-8 pl-4'>
+        <p className='text-lg text-left mb-8 pl-4 font-light'>
           Dive into a world of musical discovery as you explore the diverse
           talents showcased on Music Loopy. From indie gems to established
           icons, our platform is your go-to destination for finding the next big
@@ -26,7 +26,7 @@ const AboutSection = () => {
         <h3 className='text-xl font-semibold mb-4 pl-4'>
           Meet the Team Behind Music Loopy
         </h3>
-        <p className='text-lg text-left mb-8 pl-4'>
+        <p className='text-lg text-left mb-8 pl-4 font-light'>
           Behind every great platform is a dedicated team working tirelessly to
           bring it to life.
         </p>

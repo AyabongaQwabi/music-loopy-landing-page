@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 import Layout from '@/components/layout';
 import Hero from '@/components/hero';
 import AboutSection from '@/components/aboutSection';
+import TeamSection from '@/components/teamSection';
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
           cta={{ link: '', title: "Listen Now" }}
         />
         <AboutSection />
+        <TeamSection />
       </main>
     </Layout>
   );
