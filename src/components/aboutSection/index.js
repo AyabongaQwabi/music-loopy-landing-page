@@ -23,21 +23,6 @@ const AboutSection = () => {
           icons, our platform is your go-to destination for finding the next big
           thing in music.
         </p>
-        <h3 className='text-xl font-semibold mb-4 pl-4'>
-          Meet the Team Behind Music Loopy
-        </h3>
-        <p className='text-lg text-left mb-8 pl-4 font-light'>
-          Behind every great platform is a dedicated team working tirelessly to
-          bring it to life.
-        </p>
-        <div className='text-left mt-8 pl-4'>
-          <a
-            href='/about'
-            className='text-white bg-green-600 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg  text-xl px-4 py-3 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'
-          >
-            Learn More
-          </a>
-        </div>
       </div>
     </section>
   );
