@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { Inter } from 'next/font/google';
 import Layout from '@/components/layout';
 import Hero from '@/components/hero';
+import AboutSection from '@/components/aboutSection';
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
           text='Step into a thriving community of like-minded individuals who share your passion for music. From seasoned professionals to aspiring newcomers, Music Loopy welcomes all levels of talent and expertise. Connect with fellow creators, exchange ideas, and embark on exciting musical journeys together.'
           cta={{ link: '', title: "Listen Now" }}
         />
+        <AboutSection />
       </main>
     </Layout>
   );
