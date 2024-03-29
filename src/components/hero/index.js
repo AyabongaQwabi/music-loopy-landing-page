@@ -3,7 +3,7 @@ import Link from 'next/link';
 const Hero = ({ image, header, subHeader, text, cta }) => {
   return (
     <div
-      className={`container h-full bg-[url('/images/${image}')] h-full home-page-header flex flex-col justify-center items-center`}
+      className={`container h-full bg-[url('/images/guitar.jpg')] h-full home-page-header flex flex-col justify-center items-center`}
     >
       <div className='grid md:grid-cols-2 grid-cols-1 flex flex-col justify-center items-center'>
         <div className='h-full px-8 py-8 text-center md:text-left'>
