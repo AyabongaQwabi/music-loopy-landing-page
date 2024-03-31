@@ -2,22 +2,65 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="fixed bottom-0 left-0 z-20 w-full p-4 bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600">
-      <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">&copy; 2024 <a href="https://flowbite.com/" className="hover:underline">Music&nbsp;Loopy™</a>. All Rights Reserved.</span>
-      <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
-        <li>
-          <a href="#" className="hover:underline me-4 md:me-6">About</a>
-        </li>
-        <li>
-          <a href="#" className="hover:underline me-4 md:me-6">Privacy Policy</a>
-        </li>
-        <li>
-          <a href="#" className="hover:underline me-4 md:me-6">Licensing</a>
-        </li>
-        <li>
-          <a href="#" className="hover:underline">Contact</a>
-        </li>
-      </ul>
+    <footer className="bg-white dark:bg-gray-900">
+        <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+            <div className="md:flex md:justify-between">
+                <div className="mb-6 md:mb-0">
+                    <a href="#" className="flex items-center">
+                        <img src="logo.png" className="h-8 me-3" alt="Music Loopy Logo" />
+                        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Music Loopy</span>
+                    </a>
+                </div>
+                <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                    <div>
+                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Privacy</h2>
+                        <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                            <li>
+                                <a href="#" className="hover:underline">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">License</h2>
+                        <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                            <li>
+                                <a href="#" className="hover:underline">Licensing</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                        <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                            <li>
+                                <a href="#" className="hover:underline">Terms &amp; Conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <div className="sm:flex sm:items-center sm:justify-between">
+                <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">&copy; 2023 <a href="#" className="hover:underline">Music Loopy<sup>TM</sup></a>. All Rights Reserved.
+                </span>
+                <div className="flex mt-4 sm:justify-center sm:mt-0">
+                    <a href="https://www.facebook.com/MusicLoopy" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                    <img src="facebook.png" alt="FACEBOOK"/>
+                    </a>
+                    <a href="https://www.tiktok.com/@musicloopy?_t=8l8h21APK0O&_r=1" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                        <img src="tiktok.png" alt="TIKTOK"/>
+                    </a>
+                    <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                        <img src="twitter.png" alt="TWITTER"/>
+                    </a>
+                    <a href="https://www.instagram.com/musicloopy?igsh=MWczZG04MDZnMzhheA%3D%3D&utm_source=qr" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                        <img src="instagram.png" alt="INSTAGRAM"/>
+                    </a>
+                    <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                        <img src="linkedin.png" alt="LINKEDIN"/>
+                    </a>
+                </div>
+            </div>
+        </div>
     </footer>
   );
 }
