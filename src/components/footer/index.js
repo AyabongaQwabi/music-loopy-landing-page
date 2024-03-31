@@ -49,8 +49,8 @@ const Footer = () => {
                     <a href="https://www.tiktok.com/@musicloopy?_t=8l8h21APK0O&_r=1" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
                         <img src="tiktok.png" alt="TIKTOK"/>
                     </a>
-                    <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
-                        <img src="twitter.png" alt="TWITTER"/>
+                    <a href="https://www.youtube.com/channel/UCH6s5L14P90QLMQSkYNGEXA" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                        <img src="youtube.png" alt="YOUTUBE"/>
                     </a>
                     <a href="https://www.instagram.com/musicloopy?igsh=MWczZG04MDZnMzhheA%3D%3D&utm_source=qr" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
                         <img src="instagram.png" alt="INSTAGRAM"/>
