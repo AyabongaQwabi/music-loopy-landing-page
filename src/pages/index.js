@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <Layout>
       <main
-        className={`flex min-h-screen flex-col items-center justify-between md:p-24 ${inter.className}`}
+        className={`flex min-h-screen flex-col items-center justify-between  ${inter.className}`}
       >
         <Hero
           image='guitar.jpg'
