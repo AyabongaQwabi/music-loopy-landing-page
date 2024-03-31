@@ -5,7 +5,7 @@ const Hero = ({ image, header, subHeader, text, cta }) => {
     <div
       className={`h-full bg-[url('/images/guitar.jpg')] h-full home-page-header flex flex-col justify-center items-center`}
     >
-      <div className='grid md:grid-cols-2 grid-cols-1 flex flex-col justify-center items-center'>
+      <div id="about" className='grid md:grid-cols-2 grid-cols-1 flex flex-col justify-center items-center'>
         <div className='h-full px-8 py-8 text-center md:text-left'>
           <h1 className=' my-24 drop-shadow-md text-green-600 text-7xl mb-4 font-extrabold leading-none tracking-tight text-gray-900 dark:text-gray-900'>
             {header}
