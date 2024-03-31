@@ -21,18 +21,18 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div>
-                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">License</h2>
-                        <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                            <li>
-                                <a href="#" className="hover:underline">Licensing</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
                         <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
                         <ul className="text-gray-500 dark:text-gray-400 font-medium">
                             <li>
                                 <a href="#" className="hover:underline">Terms &amp; Conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact</h2>
+                        <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                            <li>
+                                <a href="mailto:thebeatjunction@gmail.com" className="hover:underline">thebeatjunction@gmail.com</a>
                             </li>
                         </ul>
                     </div>
