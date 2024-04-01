@@ -16,7 +16,7 @@ const Hero = ({ image, header, subHeader, text, cta }) => {
             </h2>
           )}
           
-          <div className='my-8'>
+          <div className='my-20'>
           <Link href={cta.link} className='my-24 mt-4 text-white bg-green-600 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg  text-xl px-4 py-3 text-center mr-3 md:mr-0 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800'>
             {cta.title}
           </Link>
