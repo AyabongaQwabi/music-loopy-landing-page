@@ -17,7 +17,7 @@ export default function Home() {
           header='Welcome to Music Loopy'
           subHeader="Explore, Enjoy, Support"
           text='Step into a thriving community of like-minded individuals who share your passion for music. From seasoned professionals to aspiring newcomers, Music Loopy welcomes all levels of talent and expertise. Connect with fellow creators, exchange ideas, and embark on exciting musical journeys together.'
-          cta={{ link: '', title: "Listen Now" }}
+          cta={{ link: '/tracks', title: "Listen Now" }}
         />
         <AboutSection />
         <TeamSection />
