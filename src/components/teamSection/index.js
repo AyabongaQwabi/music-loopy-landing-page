@@ -16,20 +16,19 @@ const TeamSection = () => {
             <a href='#'>
               <img
                 className='w-full rounded-lg sm:rounded-none sm:rounded-l-lg'
-                src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png'
+                src='/images/martin.jpg'
                 alt='Bonnie Avatar'
               />
             </a>
             <div className='p-5'>
               <h3 className='text-xl font-bold tracking-tight text-gray-900 dark:text-white'>
-                <a href='#'>Bonnie Green</a>
+                <a href='#'>Martin Boyle</a>
               </h3>
               <span className='text-gray-500 dark:text-gray-400'>
-                CEO & Web Developer
+                CEO & Founder
               </span>
               <p className='mt-3 mb-4 font-light text-gray-500 dark:text-gray-400'>
-                Bonnie drives the technical strategy of the flowbite platform
-                and brand.
+                Martin sets the visionary course for our company, inspiring teams to achieve excellence and driving strategic growth initiatives that propel us towards our goals.
               </p>
               <ul className='flex space-x-4 sm:mt-0'>
                 <li>
@@ -111,18 +110,17 @@ const TeamSection = () => {
             <a href='#'>
               <img
                 className='w-full rounded-lg sm:rounded-none sm:rounded-l-lg'
-                src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png'
+                src='/images/zweli.jpg'
                 alt='Jese Avatar'
               />
             </a>
             <div className='p-5'>
               <h3 className='text-xl font-bold tracking-tight text-gray-900 dark:text-white'>
-                <a href='#'>Jese Leos</a>
+                <a href='#'>Zwelisha Mthethwa</a>
               </h3>
-              <span className='text-gray-500 dark:text-gray-400'>CTO</span>
+              <span className='text-gray-500 dark:text-gray-400'>Software Engineer & Architect</span>
               <p className='mt-3 mb-4 font-light text-gray-500 dark:text-gray-400'>
-                Jese drives the technical strategy of the flowbite platform and
-                brand.
+              Zweli architects and implements robust software solutions, shaping the technological foundation of our projects.
               </p>
               <ul className='flex space-x-4 sm:mt-0'>
                 <li>
@@ -204,20 +202,19 @@ const TeamSection = () => {
             <a href='#'>
               <img
                 className='w-full rounded-lg sm:rounded-none sm:rounded-l-lg'
-                src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png'
+                src='/images/aya.jpg'
                 alt='Michael Avatar'
               />
             </a>
             <div className='p-5'>
               <h3 className='text-xl font-bold tracking-tight text-gray-900 dark:text-white'>
-                <a href='#'>Michael Gough</a>
+                <a href='#'>Ayabonga Qwabi</a>
               </h3>
               <span className='text-gray-500 dark:text-gray-400'>
-                Senior Front-end Developer
+                Software Engineer
               </span>
               <p className='mt-3 mb-4 font-light text-gray-500 dark:text-gray-400'>
-                Michael drives the technical strategy of the flowbite platform
-                and brand.
+              Aya develops efficient and scalable software solutions, contributing to the innovation and functionality of our products.
               </p>
               <ul className='flex space-x-4 sm:mt-0'>
                 <li>
@@ -299,20 +296,19 @@ const TeamSection = () => {
             <a href='#'>
               <img
                 className='w-full rounded-lg sm:rounded-none sm:rounded-l-lg'
-                src='https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/sofia-mcguire.png'
+                src='/images/andile.jpg'
                 alt='Sofia Avatar'
               />
             </a>
             <div className='p-5'>
               <h3 className='text-xl font-bold tracking-tight text-gray-900 dark:text-white'>
-                <a href='#'>Lana Byrd</a>
+                <a href='#'>Andile Mahlangu</a>
               </h3>
               <span className='text-gray-500 dark:text-gray-400'>
-                Marketing & Sale
+                Public Relations
               </span>
               <p className='mt-3 mb-4 font-light text-gray-500 dark:text-gray-400'>
-                Lana drives the technical strategy of the flowbite platform and
-                brand.
+              Andile cultivates strong relationships with media outlets and stakeholders, strategically managing our brand's reputation and fostering positive public perception through effective communication strategies
               </p>
               <ul className='flex space-x-4 sm:mt-0'>
                 <li>
