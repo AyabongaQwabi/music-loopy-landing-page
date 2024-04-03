@@ -55,7 +55,7 @@ const Footer = () => {
                     <a href="https://www.instagram.com/musicloopy?igsh=MWczZG04MDZnMzhheA%3D%3D&utm_source=qr" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
                         <img src="instagram.png" alt="INSTAGRAM"/>
                     </a>
-                    <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                    <a href="https://www.linkedin.com/company/musicloopy/?" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
                         <img src="linkedin.png" alt="LINKEDIN"/>
                     </a>
                 </div>

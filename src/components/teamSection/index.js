@@ -12,7 +12,7 @@ const TeamSection = () => {
         </div>
         <div className='grid gap-8 mb-6 lg:mb-16 md:grid-cols-2'>
           <div className='items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700'>
-          <a>
+            <a>
               
              
               <img
@@ -285,6 +285,7 @@ const TeamSection = () => {
                 
               </ul>
             </div>
+            
           </div>
         </div>
       </div>
