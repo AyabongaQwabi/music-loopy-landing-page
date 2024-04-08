@@ -26,3 +26,10 @@ body {
     text-wrap: balance;
   }
 }
+.bg-green-700, .bg-green-800, .bg-green-600, .bg-green-500 {
+    background-color: #25D300;
+
+}
+.text-green-700,.text-green-400,.text-green-900, .text-green-500, .text-green-600 {
+    color: #25D300;
+}
