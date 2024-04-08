@@ -17,7 +17,7 @@ const TeamSection = () => {
                         <img
                             className='w-full rounded-lg sm:rounded-none sm:rounded-l-lg'
                             src='/images/martin.jpg'
-                            alt='Bonnie Avatar'
+                            alt='Martin Profile Picture'
                         />
                     </a>
                     <div className='p-5 w-96 '>
@@ -73,7 +73,7 @@ const TeamSection = () => {
                     <img
                         className='w-full rounded-lg sm:rounded-none sm:rounded-l-lg'
                         src='/images/zweli.jpg'
-                        alt='Jese Avatar'
+                        alt='Zweli Profile Picture'
                     />
                 </a>
                 <div className='p-5 w-96'>
@@ -127,7 +127,7 @@ const TeamSection = () => {
                     <img
                         className='w-full rounded-lg sm:rounded-none sm:rounded-l-lg'
                         src='/images/aya.jpg'
-                        alt='Michael Avatar'
+                        alt='Aya Profile Picture'
                     />
                 </a>
                 <div className='p-5 w-96'>
@@ -183,7 +183,7 @@ const TeamSection = () => {
                     <img
                         className='w-full rounded-lg rounded'
                         src='/images/andile.jpg'
-                        alt='Sofia Avatar'
+                        alt='Andile Profile Picture'
                     />
                 </a>
                 <div className='p-5 w-96'>
@@ -239,7 +239,7 @@ const TeamSection = () => {
                     <img
                         className='w-full rounded-lg sm:rounded-none sm:rounded-l-lg'
                         src='/images/shema.jpg'
-                        alt='Sofia Avatar'
+                        alt='Shema Profile Picture'
                     />
                 </a>
                 <div className='p-5 w-96'>
