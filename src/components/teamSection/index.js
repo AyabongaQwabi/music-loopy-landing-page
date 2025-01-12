@@ -293,7 +293,7 @@ const TeamSection = () => {
                     </span>
                     <p className='mt-3 mb-4 font-light text-gray-500 dark:text-gray-400'>
                         Bofale guides our team towards unparalleled creativity and impactful 
-                        designs, shaping the landscape of our endeavors with her expertise and passion.
+                        designs, shaping the landscape of our endeavors with his expertise and passion.
                     </p>
                     <ul className='flex space-x-4 sm:mt-0'>
                         <li>
